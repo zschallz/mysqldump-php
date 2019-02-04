@@ -65,7 +65,7 @@ class Mysqldump
      * Destination filename, defaults to stdout
      * @var string
      */
-    public $fileName = 'php://output';
+    public $fileName = 'php://stdout';
 
     // Internal stuff
     private $tables = array();
